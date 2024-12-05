@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+
+
+/*container*/
+
+/*sub-visual*/
+#container .sub-visual{
+  height: 810px;
+  background: url(../img/sub/sub-main-visual.png) no-repeat center / cover;
+  position: relative;
+}
+#container .sub-visual h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #05172D;
+  font-weight: 300;
+}
+#container .sub-visual h2 span{
+  font-family: "Lora", serif;
+  letter-spacing: 2px;
+}
+
+
+/*brand-story*/
+#container .brand-story{
+  text-align: center;
+}
+#container .brand-story h2{
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Lora", serif;
+  letter-spacing: 2px;
+}
+#container .brand-story p{
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin: 65px 0;
+}
+
+/*quality*/
+#container .quality{
+  margin: 100px 0;
+}
+#container .quality h2{
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 100px;
+  text-align: center;
+}
+#container .quality ul{
+  display: flex;
+  gap: 2px;
+}
+#container .quality ul li{
+  width: 20%;
+  height: 784px;
+  position: relative;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+#container .quality ul li:nth-child(1){
+  background: url(../img/sub/sub-quality1.jpg) no-repeat top center / cover;
+}
+#container .quality ul li:nth-child(2){
+  background: url(../img/sub/sub-quality2.png) no-repeat top center / cover;
+}
+#container .quality ul li:nth-child(3){
+  background: url(../img/sub/sub-quality3.jpg) no-repeat top center / cover;
+}
+#container .quality ul li.active{
+  width: 60%;
+}
+#container .quality ul li.active p{
+  opacity: 1;
+  color: #000;
+}#container .quality ul li.active h3{
+  color: #000;
+  text-align: left;
+}
+#container .quality ul li.active .txt{
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+}
+#container .quality ul li .txt{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 30px;
+  color: #fff;
+}
+#container .quality ul li h3{
+  font-size: 3rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+#container .quality ul li p{
+  height: 120px;
+  font-size: 1.7rem;
+  text-align: justify;
+  opacity: 0;
+  color: transparent;
+  transition: all 1s;
+}
+
+
+/*heritage*/
+.heritage{
+  margin: 100px 0;
+}
+.heritage h2{
+  text-align: center;
+}
+.heritage .line{
+  width: 100%;
+  height: 2px;
+  background-color: #d9d9d9;
+  margin: 50px 0;
+}
+.heritage ul{
+  display: flex;
+  gap: 65px;
+  color: #fff;
+}
+.heritage ul li{
+  width: calc((100% - 130px) / 3);
+  position: relative;
+  padding: 10px;
+  background-color: #05172D;
+}
+.heritage ul li > .circle{
+  width: 23px;
+  height: 23px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  position: absolute;
+  top: -62px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.heritage ul li .all-box{
+  padding:20px;
+}
+.heritage ul li img{
+  width: 100%;
+  height: 487px;
+  object-fit: cover;
+}
+.heritage ul li h3{
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.heritage ul li p{
+  font-size: 1.7rem;
+  text-align: justify;
+}
+
+
+/*.renewal*/
+.renewal .inner{
+  display: flex;
+  gap: 100px;
+  text-transform: uppercase;
+}
+.renewal img{
+  width: 740px;
+  height: 886px;
+  object-fit: cover;
+}
+.renewal .txt-box{
+  width: calc(100% - 840px);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.renewal dl{
+  font-size: 2.3rem;
+}
+.renewal dl dt{
+  color: #8f8f8f;
+  margin-bottom: 50px;
+}
+.renewal dl dt span{
+  color: #000;
+  font-size: 5rem;
+}
+.renewal dl dd{
+  color: #505050;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.renewal button{
+  padding: 27px 50px;
+  border: 0;
+  background-color: #f1f1f1;
+  font-size: 2rem;
+  cursor: pointer;
+}

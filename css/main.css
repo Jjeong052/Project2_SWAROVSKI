@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+/*main-visual*/
+.mv .swiper-slide{
+  height: 920px;
+  object-fit: cover;
+  position: relative;
+}
+.mv .swiper-slide h2{
+  font-size: 7rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+  font-family: "Lora", serif;
+  white-space: nowrap;
+  letter-spacing: 2px;
+}
+.mv .swiper-slide p{
+  font-size: 2rem;
+  text-align: justify;
+}
+.mv ul li .txt-box{
+  position: absolute;
+  top: 45%;
+  left: 72%;
+  transform: translate(-50%,-50%);
+}
+.mv ul li.mv1{
+  background: url(../img/main/main-visual1.png) no-repeat center center / cover;
+}
+.mv ul li.mv2{
+  background: url(../img/main/main-visual2.png) no-repeat center center / cover;
+}
+.mv ul li.mv2 .txt-box{
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  color: #371908;
+}
+.mv ul li.mv3{
+  background: url(../img/main/main-visual3.png) no-repeat center center / cover;
+  color: #fff;
+}
+.mv ul li.mv4{
+  background: url(../img/main/main-visual4.png) no-repeat center center / cover;
+  color: #fff;
+}
+.mv .swiper-scrollbar.swiper-scrollbar-horizontal{
+  width: 25%;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: relative;
+
+}
+.mv .swiper-pagination.swiper-pagination-fraction.swiper-pagination-horizontal{
+  position: absolute;
+  bottom: 17px;
+  left: 14%;
+  color: #abb0ba;
+}
+.mv .swiper-pagination-current{
+  font-weight: bold;
+}
+.mv .swiper-scrollbar-drag{
+  background-color: #abb0ba;
+}
+
+
+/*container*/
+#container section{
+  padding-top: 150px;
+
+}
+#container h2{
+  font-size: 5rem;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+/*new*/
+#container .new{
+  margin-bottom: 100px;
+}
+#container .new .box{
+  display: flex;
+  gap: 100px;
+}
+#container .new .img-box{
+  width: 315px;
+  height: 430px;
+  background: url(../img/main/necklace-main.png) no-repeat center / cover;
+  position: relative;
+}
+#container .new .img-box .dark{
+  width: 315px;
+  height: 430px;
+  background-color:rgba(0,0,0,0.4);
+}
+#container .new .img-box p{
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+#container .new .n-box ul{
+  width: 1200px;
+  height: 500px;
+}
+#container .new .n-box ul li.swiper-slide{
+  width: 315px;
+  height: 430px;
+  position: relative;
+  border: 1px solid #ddd;
+}
+#container .new .n-box ul li.swiper-slide:nth-child(1){
+  background: url(../img/main/necklace1.png) no-repeat top center / contain;
+}
+#container .new .n-box ul li.swiper-slide:nth-child(2){
+  background: url(../img/main/necklace2.png) no-repeat top center / contain;
+}
+#container .new .n-box ul li.swiper-slide:nth-child(3){
+  background: url(../img/main/necklace3.png) no-repeat top center / contain;
+}
+#container .new .n-box ul li.swiper-slide:nth-child(4){
+  background: url(../img/main/necklace4.png) no-repeat top center / contain;
+}
+#container .new .n-box ul li.swiper-slide:nth-child(5){
+  background: url(../img/main/necklace5.png) no-repeat top center / contain;
+}
+#container .new .n-box ul li.swiper-slide:nth-child(6){
+  background: url(../img/main/necklace6.png) no-repeat top center / contain;
+}
+
+#container .new .n-box ul li dl{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 1.5rem;
+  color: #515151;
+}
+#container .new .n-box ul li dl dd:first-child{
+  margin-bottom: 12px;
+}
+#container .new .n-box ul li dl dt{
+  margin-bottom: 5px;
+}
+#container .new .n-box ul li dl dt span{
+  font-size: 2.3rem;
+  color: #000;
+}
+#container .new .n-box ul li dl dd span{
+  display: block;
+  margin-top: 10px;
+  color: #000;
+  font-size: 2rem;
+}
+#container .new .swiper-scrollbar.swiper-scrollbar-horizontal{
+  overflow: auto;
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*promotion*/
+.promotion .inner{
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+.promotion .inner video, .promotion .inner img{
+  width: 100%;
+  height: 443px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+.promotion p{
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+.promotion p span{
+  font-size: 2.7rem;
+}
+
+/*moreview*/
+.moreview{
+  display: flex;
+}
+.moreview .tit{
+  padding-top: 220px;
+  height: 680px;
+  text-align: center;
+}
+.moreview .tit h2{
+  width: 620px;
+  font-weight: 400;
+}
+.moreview .tit p{
+  font-size: 2rem;
+}
+.moreview ul li img{
+  width: 475px;
+  height: 628px;
+  object-fit: cover;
+}
+.moreview ul li.swiper-slide{
+  position: relative;
+}
+.moreview ul li p{
+  position: absolute;
+  bottom: 10%;
+  left: 47%;
+  transform: translate(-50%,-50%);
+  font-size: 2.8rem;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.moreview .mw .swiper-scrollbar.swiper-scrollbar-horizontal{
+  overflow: auto;
+  width: 90%;
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  transform: translate(-50%,-50%);
+}
+
+/*gift*/
+.gift ul{
+  position: relative;
+}
+.gift ul li{
+  height: 766px;
+}
+.gift ul li a{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  color: #05172d;
+  white-space: nowrap;
+}
+.gift ul li.gs1{
+  background: url(../img/main/gift1.png) no-repeat center center / cover;
+}
+.gift ul li.gs2{
+  background: url(../img/main/gift2.png) no-repeat center center / cover;
+}
+.gift ul li a h3{
+  font-size: 7rem;
+  font-family: "Lora", serif;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+.gift ul li a p{
+  font-size: 2.5rem;
+}
+.gift .swiper-button-next, .gift .swiper-button-prev{
+  color: #fff;
+}
+.gift .swiper-pagination-bullet-active{
+  background-color: #05172d;
+}
+.gift .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal{
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+}
+.gift button{
+  color: #05172d;
+  width: 250px;
+  border: 0;
+  margin-top: 20px;
+  padding: 25px 30px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.gift button span{
+  font-size: 2.5rem;
+  color: #05172d;
+  vertical-align: middle;
+}
+
+
+/*store*/
+.store{
+  display: flex;
+  gap: 100px;
+  padding: 100px;
+}
+.store .txt-box{
+  width: 510px;
+  padding: 50px 0 0 50px;
+}
+.store .txt-box p{
+  font-size: 1.7rem;
+  margin-top: 50px;
+}
+.store img{
+  width: 1780px;
+}
+.store button{
+  color: #05172d;
+  width: 250px;
+  border: 0;
+  margin-top: 20px;
+  padding: 25px 30px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.store button span{
+  font-size: 2.5rem;
+  color: #05172d;
+  vertical-align: middle;
+}
+
+
+/*service*/
+#container section.service{
+  padding: 130px 0;
+}
+.service h2{
+  text-align: center;
+  padding-bottom: 70px;
+}
+.service ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.service ul li{
+  position: relative;
+}
+.service ul li:nth-child(n+2)::before{
+  content: "";
+  display: block;
+  height: 80%;
+  border-left: 1px solid #d9d9d9;
+  position: absolute;
+  top: 50%;
+  left: -65%;
+  transform: translate(-50%,-50%);
+}
+.service ul li img{
+  width: 177px;
+  height: 177px;
+  object-fit: contain;
+  margin-bottom: 35px;
+}
+.service ul li dl{
+  text-align: center;
+}
+.service ul li dl dt{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.service ul li dl dd{
+  opacity: 0.8;
+}
+
